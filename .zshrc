@@ -97,9 +97,6 @@ export EDITOR="code -w"
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 
-# Setup autojump (https://github.com/wting/autojump)
-[ -f /opt/homebrew/etc/profile.d/autojump.sh ] && . /opt/homebrew/etc/profile.d/autojump.sh
-
 # ZSH
 alias zshedit="code ~/.zshrc"
 alias zshupdate="source ~/.zshrc"
@@ -136,6 +133,3 @@ alias r="npm run"
 alias c="code ."
 alias copypath="printf \$(pwd) | pbcopy"
 alias tmp="cd \$(mktemp -d)"
-
-# jump
-eval "$(jump shell zsh)"
